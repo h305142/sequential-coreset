@@ -1,0 +1,3016 @@
+d= 12 n_components= 4 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.86680068808694 -24.86680068808694
+y labels: {0, 1, 2, 3}
+time =  1.559945821762085 purity =  0.94697
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.747938748796503
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.777364873218648
+y labels: {0, 1, 2, 3}
+time =  0.06396055221557617 purity =  0.94631
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.72603935062683
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.790338679461883
+y labels: {0, 1, 2, 3}
+time =  0.07912564277648926 purity_coreset =  0.94574
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -28.7503817495131
+y labels: {0, 1, 2, 3}
+time =  0.4805600643157959 purity_seq =  0.94643
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.612549324416545 -25.612549324416552
+y labels: {0, 1, 2, 3}
+time =  2.432284116744995 purity =  0.9587
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.48587217990027
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.6232730590072
+y labels: {0, 1, 2, 3}
+time =  0.10045170783996582 purity =  0.95758
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.494361763215377
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.604141347733126
+y labels: {0, 1, 2, 3}
+time =  0.09002566337585449 purity_coreset =  0.95759
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -29.494568236671284
+y labels: {0, 1, 2, 3}
+time =  0.5558991432189941 purity_seq =  0.95838
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.008134179642 -25.008134179642
+y labels: {0, 1, 2, 3}
+time =  2.2888083457946777 purity =  0.92475
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.89135596229853
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.933614437394347
+y labels: {0, 1, 2, 3}
+time =  0.08414769172668457 purity =  0.92378
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.8827028507221
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.960293103341463
+y labels: {0, 1, 2, 3}
+time =  0.10935187339782715 purity_coreset =  0.92441
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -28.89438706695632
+y labels: {0, 1, 2, 3}
+time =  0.3847179412841797 purity_seq =  0.92414
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.852027449510622 -24.85202744951062
+y labels: {0, 1, 2, 3}
+time =  2.4253573417663574 purity =  0.93084
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.731192180741736
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.76767478340257
+y labels: {0, 1, 2, 3}
+time =  0.07389020919799805 purity =  0.92975
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.735066076015535
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.75450612934144
+y labels: {0, 1, 2, 3}
+time =  0.09283876419067383 purity_coreset =  0.92996
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.734873404296078
+y labels: {0, 1, 2, 3}
+time =  0.49921655654907227 purity_seq =  0.92995
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.549482484113337 -25.549482484113337
+y labels: {0, 1, 2, 3}
+time =  2.2784931659698486 purity =  0.96403
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.434167950152293
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.502197996529002
+y labels: {0, 1, 2, 3}
+time =  0.07636547088623047 purity =  0.96312
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.42808806068278
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.507886417680368
+y labels: {0, 1, 2, 3}
+time =  0.07697844505310059 purity_coreset =  0.96331
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.42345553796261
+y labels: {0, 1, 2, 3}
+time =  0.44846391677856445 purity_seq =  0.96318
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.77310482802821 -25.773104828028213
+y labels: {0, 1, 2, 3}
+time =  3.947462558746338 purity =  0.94044
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.651113946123207
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.69818607707598
+y labels: {0, 1, 2, 3}
+time =  0.08579611778259277 purity =  0.9397
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.656985964403223
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.728919254909318
+y labels: {0, 1, 2, 3}
+time =  0.15215253829956055 purity_coreset =  0.9388
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -29.654733873873674
+y labels: {0, 1, 2, 3}
+time =  0.4891033172607422 purity_seq =  0.93873
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.780339019449855 -24.780339019449855
+y labels: {0, 1, 2, 3}
+time =  2.2919681072235107 purity =  0.89065
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.664119119862193
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.680102987579723
+y labels: {0, 1, 2, 3}
+time =  0.10037064552307129 purity =  0.88676
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.664391522524753
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.813463733417162
+y labels: {0, 1, 2, 3}
+time =  0.09740519523620605 purity_coreset =  0.88609
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.65917328226671
+y labels: {0, 1, 2, 3}
+time =  0.5458869934082031 purity_seq =  0.88707
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.559017772264642 -24.559017772264642
+y labels: {0, 1, 2, 3}
+time =  2.331277847290039 purity =  0.91879
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.44637641685972
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.453728946159746
+y labels: {0, 1, 2, 3}
+time =  0.07728075981140137 purity =  0.9176
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.423873504586542
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.496559709449244
+y labels: {0, 1, 2, 3}
+time =  0.08233523368835449 purity_coreset =  0.91686
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -28.444797327068947
+y labels: {0, 1, 2, 3}
+time =  0.3799614906311035 purity_seq =  0.91754
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.419578681085216 -25.41957868108522
+y labels: {0, 1, 2, 3}
+time =  2.2310163974761963 purity =  0.95864
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.30372344148642
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.35088000657985
+y labels: {0, 1, 2, 3}
+time =  0.0678865909576416 purity =  0.95752
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.304785744452346
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.316445866207232
+y labels: {0, 1, 2, 3}
+time =  0.05973505973815918 purity_coreset =  0.95803
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.305685275770262
+y labels: {0, 1, 2, 3}
+time =  0.45868873596191406 purity_seq =  0.95777
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.53399851566769 -25.533998515667683
+y labels: {0, 1, 2, 3}
+time =  2.530435800552368 purity =  0.94341
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.42242519868346
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.50438645225731
+y labels: {0, 1, 2, 3}
+time =  0.07832527160644531 purity =  0.94291
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.407940753341986
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.46806332824473
+y labels: {0, 1, 2, 3}
+time =  0.09838128089904785 purity_coreset =  0.94177
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.415485139901392
+y labels: {0, 1, 2, 3}
+time =  0.3441340923309326 purity_seq =  0.94151
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.865057465656047 -25.86505746565605
+y labels: {0, 1, 2, 3}
+time =  2.539886236190796 purity =  0.94997
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.749738588918735
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.79769847488096
+y labels: {0, 1, 2, 3}
+time =  0.06650757789611816 purity =  0.94891
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.754205538681187
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.71846058895848
+y labels: {0, 1, 2, 3}
+time =  0.09187912940979004 purity_coreset =  0.94898
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.752102523381357
+y labels: {0, 1, 2, 3}
+time =  0.4504411220550537 purity_seq =  0.94932
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.04212764456818 -24.04212764456818
+y labels: {0, 1, 2, 3}
+time =  4.014469861984253 purity =  0.82673
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.921883540221867
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.94670392334856
+y labels: {0, 1, 2, 3}
+time =  0.1088094711303711 purity =  0.82219
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.695572615561677
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.78032947351606
+y labels: {0, 1, 2, 3}
+time =  0.42398619651794434 purity_coreset =  0.64354
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -27.93010006351038
+y labels: {0, 1, 2, 3}
+time =  0.49002552032470703 purity_seq =  0.82303
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.21991973498998 -24.21991973498998
+y labels: {0, 1, 2, 3}
+time =  3.3925061225891113 purity =  0.88804
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.77896659762077
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.873084402457867
+y labels: {0, 1, 2, 3}
+time =  0.24391841888427734 purity =  0.64616
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.784189438674975
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.784051995525594
+y labels: {0, 1, 2, 3}
+time =  0.3310120105743408 purity_coreset =  0.68894
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.098956602470707
+y labels: {0, 1, 2, 3}
+time =  0.5470211505889893 purity_seq =  0.88409
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.302129494071334 -25.302129494071334
+y labels: {0, 1, 2, 3}
+time =  2.260418653488159 purity =  0.93187
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.188159297156677
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.159248515014188
+y labels: {0, 1, 2, 3}
+time =  0.07178306579589844 purity =  0.93136
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.184809069780933
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.276857656506156
+y labels: {0, 1, 2, 3}
+time =  0.09981608390808105 purity_coreset =  0.93053
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.185091135092232
+y labels: {0, 1, 2, 3}
+time =  0.38014721870422363 purity_seq =  0.92993
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.44348789507402 -24.443487895074018
+y labels: {0, 1, 2, 3}
+time =  2.9276161193847656 purity =  0.895
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.325146401166123
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.419908376746754
+y labels: {0, 1, 2, 3}
+time =  0.11118555068969727 purity =  0.89209
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.330387633891036
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.384208264113557
+y labels: {0, 1, 2, 3}
+time =  0.10127806663513184 purity_coreset =  0.89332
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.3258020576813
+y labels: {0, 1, 2, 3}
+time =  0.5318849086761475 purity_seq =  0.89251
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.090481291423497 -25.090481291423497
+y labels: {0, 1, 2, 3}
+time =  4.053771495819092 purity =  0.93204
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.9755151156935
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.005229300000238
+y labels: {0, 1, 2, 3}
+time =  0.08746647834777832 purity =  0.93073
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.977650370542804
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.0397678779097
+y labels: {0, 1, 2, 3}
+time =  0.11029362678527832 purity_coreset =  0.93098
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.970889059685916
+y labels: {0, 1, 2, 3}
+time =  0.4481806755065918 purity_seq =  0.93098
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.996902155166314 -25.99690215516631
+y labels: {0, 1, 2, 3}
+time =  1.9238574504852295 purity =  0.93656
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.884770965192647
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.904217700723237
+y labels: {0, 1, 2, 3}
+time =  0.05687427520751953 purity =  0.93531
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.891388340624726
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.919473273939165
+y labels: {0, 1, 2, 3}
+time =  0.06388211250305176 purity_coreset =  0.93527
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.881908625116427
+y labels: {0, 1, 2, 3}
+time =  0.38951969146728516 purity_seq =  0.93553
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.25585198554001 -24.255851985540012
+y labels: {0, 1, 2, 3}
+time =  2.943938970565796 purity =  0.83058
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.13804931917501
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.269286595141033
+y labels: {0, 1, 2, 3}
+time =  0.10369396209716797 purity =  0.82577
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.139115308744287
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.18749640971518
+y labels: {0, 1, 2, 3}
+time =  0.12497091293334961 purity_coreset =  0.82734
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.139472733588885
+y labels: {0, 1, 2, 3}
+time =  0.5319094657897949 purity_seq =  0.8268
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.59728554262561 -25.59728554262561
+y labels: {0, 1, 2, 3}
+time =  2.9933598041534424 purity =  0.9505
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.479631160751516
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.541706430707062
+y labels: {0, 1, 2, 3}
+time =  0.08518362045288086 purity =  0.95026
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.48586065391984
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.594218714910546
+y labels: {0, 1, 2, 3}
+time =  0.0935661792755127 purity_coreset =  0.94998
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.483248231247412
+y labels: {0, 1, 2, 3}
+time =  0.41457629203796387 purity_seq =  0.94979
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.489373353233272 -25.48937335323327
+y labels: {0, 1, 2, 3}
+time =  2.3456499576568604 purity =  0.96755
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.375439823531387
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.419274323257486
+y labels: {0, 1, 2, 3}
+time =  0.24939894676208496 purity =  0.96711
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.363015565872118
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.365299647309275
+y labels: {0, 1, 2, 3}
+time =  0.07719564437866211 purity_coreset =  0.96684
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+---Negative Logarithmic Likelihood(in full data)---= -29.377662393596218
+y labels: {0, 1, 2, 3}
+time =  0.3407409191131592 purity_seq =  0.96702
+timer_avg: [2.685626208782196, 0.09966481924057007, 0.1228104829788208, 0.4555539608001709]
+loss_avg: [-25.112882475230666, -28.97977929771663, -28.966521506343252, -28.99613871598256]
+purity_avg: [0.9243030000000001, 0.9107459999999999, 0.903914, 0.9226849999999999]
+timer_std: [0.6738339038395011, 0.051191224120084235, 0.0884468219720855, 0.06756199702310108]
+loss_std: [0.5740627630387605, 0.6033872579062298, 0.625893696429766, 0.5741441618737732]
+purity_std: [0.03888858317038563, 0.07226845185833167, 0.08539378457475698, 0.039932144883539626]
+d= 12 n_components= 8 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.803204380429033 -25.80320438042903
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  10.14405083656311 purity =  0.83096
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.785697398638657
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.943152408098495
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.26470041275024414 purity =  0.92445
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.11122079211589
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.14885607654927
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.5422945022583008 purity_coreset =  0.77711
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -29.155228573831213
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.1063642501831055 purity_seq =  0.7806
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.272196387842204 -24.2721963878422
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.98942756652832 purity =  0.81228
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.131479790802942
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.2789846861284
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.25742268562316895 purity =  0.80521
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.120101412137835
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.297708355619193
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.33249974250793457 purity_coreset =  0.80195
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.124881281354376
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.0832204818725586 purity_seq =  0.80312
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.095956623476567 -25.09595662347657
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  7.296637296676636 purity =  0.92099
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.94148162790442
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.111342053769185
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.23547577857971191 purity =  0.91661
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.95764679179719
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.119384323018426
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2518270015716553 purity_coreset =  0.9175
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.95476911111617
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9483695030212402 purity_seq =  0.91848
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.68396481332039 -24.683964813320394
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  24.908531188964844 purity =  0.78456
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.531270294334814
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.686716788437426
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2975020408630371 purity =  0.77525
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.522607307460433
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.613461539016914
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.4145681858062744 purity_coreset =  0.77367
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.53100155584628
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.1950137615203857 purity_seq =  0.7748
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.589820011477187 -25.589820011477187
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  5.921492576599121 purity =  0.93133
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -29.454077895303957
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.454145655197333
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2522730827331543 purity =  0.92865
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -29.45705766478091
+---Negative Logarithmic Likelihood(in weighted coreset)---= -29.668817086438892
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.27341604232788086 purity_coreset =  0.92959
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -29.44019364456986
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9038529396057129 purity_seq =  0.92838
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.895289191470134 -23.895289191470138
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  17.292714834213257 purity =  0.70071
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.88852067653018
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.000999514417074
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3293929100036621 purity =  0.77607
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.89085208890814
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.894436602991263
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.6184694766998291 purity_coreset =  0.77628
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -27.88573147010368
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.143218755722046 purity_seq =  0.77751
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.81416098576641 -24.81416098576641
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  5.985564708709717 purity =  0.8446
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.65190272493531
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.80697945887835
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.21269965171813965 purity =  0.83673
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.670098421965204
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.764841483498365
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.28321099281311035 purity_coreset =  0.83845
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.669964002932144
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.078385591506958 purity_seq =  0.83925
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.90456976776312 -24.904569767763117
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  9.252522945404053 purity =  0.8214
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.761430704567754
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.771029969005077
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.5158905982971191 purity =  0.81376
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.753422721590507
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.8606264004499
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.26460909843444824 purity_coreset =  0.81434
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.754148055646777
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.0628085136413574 purity_seq =  0.81503
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.31982418510446 -24.31982418510446
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  7.9347076416015625 purity =  0.84166
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.044270416699987
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.140510104390913
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.5135767459869385 purity =  0.74974
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.168621744001108
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.210270422350284
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.25875163078308105 purity_coreset =  0.83363
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.17612942458798
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.1232421398162842 purity_seq =  0.83531
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.365349010062175 -24.36534901006217
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.217055559158325 purity =  0.86161
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.049615277513514
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.14119235076565
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.31328725814819336 purity =  0.75191
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.043173122028335
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.093244188608505
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.6755709648132324 purity_coreset =  0.74442
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.20932059600503
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.0531902313232422 purity_seq =  0.85201
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.41208676618147 -24.41208676618147
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  6.305121660232544 purity =  0.85598
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.038923175262603
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.06496379769411
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.4106173515319824 purity =  0.72594
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.256305807973085
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.42378221623249
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2763690948486328 purity_coreset =  0.84996
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.263702163300287
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9747207164764404 purity_seq =  0.84944
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.67481973815855 -24.674819738158547
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.193175315856934 purity =  0.89194
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.53379589679202
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.612857073275364
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.29370713233947754 purity =  0.88971
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.533581079509926
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.620473490554538
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.274320125579834 purity_coreset =  0.88895
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.5267967922943
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.8901853561401367 purity_seq =  0.88783
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.79741987538489 -24.797419875384897
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  6.613811731338501 purity =  0.89513
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.6545975417475
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.734024088928656
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2860434055328369 purity =  0.89147
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.63872797546959
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.71979377720216
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.49101996421813965 purity_coreset =  0.88776
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.63904395866028
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.927579402923584 purity_seq =  0.89042
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.012513506404673 -24.012513506404673
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.590939044952393 purity =  0.87484
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.8641412702594
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.92018871021427
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2387065887451172 purity =  0.86898
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.879923476471504
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.08812210305546
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.4546375274658203 purity_coreset =  0.86898
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -27.865375330412434
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.8678264617919922 purity_seq =  0.87098
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.51288978721383 -24.51288978721383
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  7.349254131317139 purity =  0.86712
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.357922687112833
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.51128599707079
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3095366954803467 purity =  0.86061
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.35974359329691
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.432907831393223
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.270017147064209 purity_coreset =  0.86044
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -28.36872966201502
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9496588706970215 purity_seq =  0.86201
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.568002104827748 -24.56800210482775
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  7.819712162017822 purity =  0.8701
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.124618895165277
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.181443310993103
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.606781005859375 purity =  0.74645
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.098811963180786
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.29044397300219
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3223702907562256 purity_coreset =  0.73851
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.124738923476492
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.42919921875 purity_seq =  0.7381
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.08222903359862 -24.08222903359863
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  10.233154296875 purity =  0.81523
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.826461348128625
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.961402258391903
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3110229969024658 purity =  0.72248
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.92522942019855
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.051280133885182
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3971250057220459 purity_coreset =  0.80694
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -27.938144869160727
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.1298511028289795 purity_seq =  0.80709
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.138336046630627 -24.138336046630634
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  7.471256971359253 purity =  0.83447
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.989242865989603
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.171390802505137
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.2621886730194092 purity =  0.82687
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.98649074438413
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.110522894304182
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3267824649810791 purity_coreset =  0.82689
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+---Negative Logarithmic Likelihood(in full data)---= -27.990957792754024
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9074335098266602 purity_seq =  0.8258
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.612392722194173 -24.612392722194166
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.607545614242554 purity =  0.82732
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.45649283873056
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.583864646091317
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.3345298767089844 purity =  0.81907
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.44301337564155
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.620598254490876
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.25110530853271484 purity_coreset =  0.81867
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.351001877701645
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  1.235877513885498 purity_seq =  0.72628
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.698825313562175 -24.698825313562168
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  8.977530479431152 purity =  0.83694
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.55770888025106
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.647374904252068
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.29335474967956543 purity =  0.82999
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.539153038183258
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.686602079132665
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.41113948822021484 purity_coreset =  0.82857
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.55255110873917
+y labels: {0, 1, 2, 3, 4, 5, 6, 7}
+time =  0.9082298278808594 purity_seq =  0.82764
+timer_avg: [9.305210328102111, 0.3269354820251465, 0.36950520277023313, 1.0459114074707032]
+loss_avg: [-24.612692512543422, -28.43218261033355, -28.41778912705474, -28.4261205097254]
+purity_avg: [0.8459584999999998, 0.8229974999999999, 0.8291305, 0.8305039999999998]
+timer_std: [4.280644363835012, 0.10225024610198297, 0.1250841102951592, 0.13897657181839082]
+loss_std: [0.47319563071138016, 0.5099828795526005, 0.4204214771173715, 0.41528682842438236]
+purity_std: [0.048997352303466336, 0.06474630127466742, 0.05174656321679732, 0.05344062784062328]
+d= 12 n_components= 12 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.743178070849517 -23.743178070849517
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  20.862833738327026 purity =  0.79092
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.442218294146272
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.626813463625126
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.9572751522064209 purity =  0.69238
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.43676998856828
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.657726534043586
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.0057804584503174 purity_coreset =  0.70825
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.33731753978863
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.6015114784240723 purity_seq =  0.6291
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.934516894709123 -23.934516894709123
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  37.91097640991211 purity =  0.73242
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.676253825821615
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.83844422631068
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8347053527832031 purity =  0.65533
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.68011789398339
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.87135305572684
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.2429041862487793 purity_coreset =  0.64592
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.750950844365306
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.1978371143341064 purity_seq =  0.71229
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.458222514217052 -24.45822251421706
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  23.845798015594482 purity =  0.79385
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.277968636840022
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.378137340701432
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8270361423492432 purity =  0.7819
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.01512841270292
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.29334885700957
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.8408105373382568 purity_coreset =  0.62233
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.853721019791575
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  3.1319456100463867 purity_seq =  0.63941
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.041505384801066 -24.041505384801063
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  16.824087858200073 purity =  0.78529
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.83529728442469
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.970373443003727
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.7343778610229492 purity =  0.76897
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.62446059562144
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.802566811618618
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.630944013595581 purity_coreset =  0.68328
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.85914716619815
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.8885314464569092 purity_seq =  0.76807
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.085934276043485 -24.085934276043478
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  16.262202739715576 purity =  0.7671
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.68767144808572
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.938290207526954
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.7659585475921631 purity =  0.61198
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.880525102767344
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.99128769270395
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.4368698596954346 purity_coreset =  0.74405
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.78539946034451
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.9481146335601807 purity_seq =  0.66635
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -25.06708532253332 -25.06708532253332
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  14.179118871688843 purity =  0.87253
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.89404630259035
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.94553458785138
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.5981521606445312 purity =  0.86303
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.672331646820027
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.880217375243472
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.082015037536621 purity_coreset =  0.78391
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.53145062388393
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.7434890270233154 purity_seq =  0.75573
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.48568423609324 -24.485684236093242
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  20.935683727264404 purity =  0.76744
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.109074018258642
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.315101553530145
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.4522132873535156 purity =  0.62552
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.1125451794553
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.333670097220214
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.2932803630828857 purity_coreset =  0.63054
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.152740758783484
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.1153693199157715 purity_seq =  0.67721
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.190998736442467 -24.190998736442467
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  19.83132553100586 purity =  0.74187
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.81070921582484
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.07082960922546
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.508983850479126 purity =  0.55812
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.90856890612338
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.198414825733213
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.117828607559204 purity_coreset =  0.63748
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.986548495446268
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.029697895050049 purity_seq =  0.71683
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.075709777593037 -24.07570977759304
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  29.33768320083618 purity =  0.7946
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.87306016696458
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.08253292769809
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.782639503479004 purity =  0.77665
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.704928544058966
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.914828431745914
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.5246078968048096 purity_coreset =  0.67173
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.783656920489022
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.0057826042175293 purity_seq =  0.72032
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.609747230828283 -24.60974723082828
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  22.692184448242188 purity =  0.7857
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.333040772044182
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.511951892671274
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.693556308746338 purity =  0.70499
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.960634517453546
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.13972090296751
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.0823750495910645 purity_coreset =  0.53064
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.232510052856753
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.1541025638580322 purity_seq =  0.68188
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.609064454967246 -24.609064454967246
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  12.94133996963501 purity =  0.83542
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.42968036421357
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.6327656272131
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.6054928302764893 purity =  0.82518
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.28004738388916
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.612688685463493
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8534255027770996 purity_coreset =  0.75713
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.42337239446479
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.4514310359954834 purity_seq =  0.82394
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.444839465196146 -24.44483946519615
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  18.757102966308594 purity =  0.76889
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.212082312272237
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.453896175001333
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8419010639190674 purity =  0.69826
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.08092355585807
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.388297263421094
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.1419291496276855 purity_coreset =  0.64123
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.234709420739353
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.6601390838623047 purity_seq =  0.74483
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.961785057146326 -23.961785057146326
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  19.040506839752197 purity =  0.77215
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.776370268894862
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.935797440891097
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.9383456707000732 purity =  0.75671
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.559639409935368
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.87567144828084
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.1934962272644043 purity_coreset =  0.64702
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.71648567684331
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.9861950874328613 purity_seq =  0.70232
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.595160248701955 -24.595160248701955
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  18.333882570266724 purity =  0.82498
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.352991777924338
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.59164834517952
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.7763209342956543 purity =  0.76528
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.394759715351444
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.607947378724827
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.0467150211334229 purity_coreset =  0.80644
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.376030819195126
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.2924375534057617 purity_seq =  0.76459
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.20049277424536 -24.20049277424536
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  11.416853666305542 purity =  0.80254
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.910313729263112
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.220227453665828
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8947200775146484 purity =  0.73143
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.93116000426967
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.177595570410386
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.366119623184204 purity_coreset =  0.72707
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.02191830547914
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.65012788772583 purity_seq =  0.79014
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.353953702428736 -24.353953702428733
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  22.919930458068848 purity =  0.7855
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.492469192675323
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.677784591670196
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.9448356628417969 purity =  0.81154
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.652992632960455
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.779042087288367
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8611605167388916 purity_coreset =  0.88039
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.650269625452015
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.5044629573822021 purity_seq =  0.87915
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.36098912861078 -24.360989128610775
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  17.293822526931763 purity =  0.77901
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.94473333606443
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.14879799019126
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8067882061004639 purity =  0.61765
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.13014892116721
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.29262012423784
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.1516664028167725 purity_coreset =  0.71862
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.03255813414223
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.1992297172546387 purity_seq =  0.64411
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.471240399923925 -24.47124039992393
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  19.437950372695923 purity =  0.75041
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.345904394443394
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.608141337529574
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.9029645919799805 purity =  0.79198
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.913648230738886
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.275891112955645
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.1552784442901611 purity_coreset =  0.59666
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.37835230526099
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.5946109294891357 purity_seq =  0.79565
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.52988266799209 -24.529882667992084
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  13.116272211074829 purity =  0.81487
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.346251040895563
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.49639314734274
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.5942122936248779 purity =  0.8009
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.145311047754554
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.23578637745405
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.0509238243103027 purity_coreset =  0.68852
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+---Negative Logarithmic Likelihood(in full data)---= -28.34310654385989
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.656829595565796 purity_seq =  0.80038
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.787644250850807 -24.787644250850803
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  15.537699222564697 purity =  0.79695
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.508653149686474
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.749957044368593
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  1.6025919914245605 purity =  0.72389
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.20006490510181
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.49087781310823
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  0.8494069576263428 purity_coreset =  0.56466
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.376789227775397
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+time =  2.0940048694610596 purity_seq =  0.69479
+timer_avg: [19.573862767219545, 1.0031535744667053, 1.196376883983612, 1.9952925205230714]
+loss_avg: [-24.350381729708694, -28.11293947656671, -28.014235329729065, -28.09135176675799]
+purity_avg: [0.7881220000000002, 0.7280845, 0.6842935, 0.7303545]
+timer_std: [5.908425260963461, 0.36918173476418054, 0.3467239386224152, 0.38739180792794]
+loss_std: [0.3135343863292205, 0.3530548231896359, 0.32280862689915724, 0.3249402050291037]
+purity_std: [0.031675529766682683, 0.07944172521257328, 0.08221002227678811, 0.06518457911768703]
+d= 12 n_components= 16 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.853027667304218 -23.85302766730422
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  24.0898334980011 purity =  0.76666
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.396122740482614
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.712612341383355
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.013838291168213 purity =  0.60767
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.05558380632367
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.6203554321254
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.9852268695831299 purity_coreset =  0.42377
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.61660270525041
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.5823943614959717 purity_seq =  0.74087
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.41776947626286 -24.41776947626286
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  74.71570158004761 purity =  0.74017
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.705141997565363
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.16438545803466
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.822288751602173 purity =  0.50352
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.694797516862817
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.13741567435772
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.541255235671997 purity_coreset =  0.53118
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.190039709138418
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.7366647720336914 purity_seq =  0.72854
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.378127868067203 -24.378127868067203
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  22.398524284362793 purity =  0.77099
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.89770802186589
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.234352650862956
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.889079332351685 purity =  0.58544
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.54919765070783
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.024840390043043
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.5851783752441406 purity_coreset =  0.44274
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.09336541064099
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.984010934829712 purity_seq =  0.72256
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.06855938555405 -24.068559385554053
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  29.606849193572998 purity =  0.69901
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.586086309016423
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.95293987472393
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.531557559967041 purity =  0.49753
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.71751157585271
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.17714064550803
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.4247400760650635 purity_coreset =  0.56047
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.741626859544805
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.9435768127441406 purity_seq =  0.57555
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.06911536418254 -24.06911536418254
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  36.13704037666321 purity =  0.75699
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.284958551304015
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.75822909210168
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.8028006553649902 purity =  0.45887
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.495615274977215
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.922640386222533
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.4540975093841553 purity_coreset =  0.4994
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.791281959064698
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.554490327835083 purity_seq =  0.70276
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.7847448460056 -24.784744846005598
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  57.37184810638428 purity =  0.82615
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.100806479781482
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.44508714681439
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.073793888092041 purity =  0.66471
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.264393879008885
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.695343375533653
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.649451732635498 purity_coreset =  0.63065
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.499389053591155
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.8759825229644775 purity_seq =  0.78128
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.952141966109046 -24.952141966109053
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  37.41669225692749 purity =  0.77775
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.252978291811896
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.550030783248065
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.534179925918579 purity =  0.52445
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.58443466514096
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.879625436527018
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.8509571552276611 purity_coreset =  0.65445
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.676962347262954
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.7477946281433105 purity_seq =  0.71126
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.412756736644013 -24.412756736644003
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  45.675633668899536 purity =  0.75297
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.912859729832988
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.310013077326733
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.4456777572631836 purity =  0.56414
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.838629418819806
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.19582695237234
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.6861488819122314 purity_coreset =  0.53949
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -28.096089751741705
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.6390252113342285 purity_seq =  0.66932
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.854578266047536 -23.854578266047543
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  48.15037178993225 purity =  0.68987
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.054826207075916
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.43637351525756
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.958650827407837 purity =  0.3231
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.317005454132552
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.723276499526765
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.1130428314208984 purity_coreset =  0.46981
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.6111803611499
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.7515928745269775 purity_seq =  0.66185
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.517605656568144 -24.517605656568144
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  23.270678281784058 purity =  0.80885
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.057630760260242
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.40025050003796
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.2265307903289795 purity =  0.66492
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.76544153949193
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.208667898379215
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.5692241191864014 purity_coreset =  0.57545
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.19046437932756
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.7348344326019287 purity_seq =  0.71716
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.190946473857036 -24.190946473857036
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  25.73054265975952 purity =  0.72557
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.67739272359713
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.043877446963684
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.36031436920166 purity =  0.4973
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.810229141111996
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.13219852042206
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.6270010471343994 purity_coreset =  0.58314
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.915124829995783
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.357141017913818 purity_seq =  0.63217
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.261414555953852 -24.261414555953852
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  30.251153707504272 purity =  0.7208
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.450917501036916
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.891590230969776
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.732649326324463 purity =  0.34259
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.467751290125936
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.916330807495576
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  0.978571891784668 purity_coreset =  0.32449
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.80294309958216
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.7896788120269775 purity_seq =  0.53451
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.836307086226824 -23.836307086226824
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  51.91700887680054 purity =  0.75709
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.219575472862186
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.512796475408404
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.120287179946899 purity =  0.46754
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.212040184348446
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.619424394037036
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.5417656898498535 purity_coreset =  0.4809
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.55811055567685
+y labels: {0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.394688844680786 purity_seq =  0.68361
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.927073017771367 -23.927073017771367
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  30.617475748062134 purity =  0.76506
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.267254112805524
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.782533672109015
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.662160158157349 purity =  0.48193
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.291841747114038
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.698934675913343
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.2083702087402344 purity_coreset =  0.53802
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.57347312782551
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.9374258518218994 purity_seq =  0.63416
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.018551911923694 -24.018551911923694
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  35.43498396873474 purity =  0.77505
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.11452596706109
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.602650655451743
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  4.0951597690582275 purity =  0.40831
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.094880068414597
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.492343754850886
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.9932782649993896 purity_coreset =  0.43424
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.717107163678765
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.0135979652404785 purity_seq =  0.69972
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.04196306050329 -24.04196306050329
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  26.582838535308838 purity =  0.75628
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.406787659272904
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.85694070257754
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.639974355697632 purity =  0.49244
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.50780921743428
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.991995740320682
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.960245370864868 purity_coreset =  0.51966
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.787668911181143
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.760291814804077 purity_seq =  0.69485
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.660114089369824 -24.660114089369824
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  28.107970476150513 purity =  0.81457
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.688127581296964
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.985655419644004
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.3631527423858643 purity =  0.47738
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.889116173976976
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.51672069194604
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.8239409923553467 purity_coreset =  0.50165
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.31126324670326
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.5982778072357178 purity_seq =  0.74132
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.517777017398053 -23.517777017398057
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  33.781596183776855 purity =  0.68576
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.87396273958142
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.419739119733144
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.807832956314087 purity =  0.35947
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.919564268650397
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.362820158894777
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.2413508892059326 purity_coreset =  0.38511
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.23386317724326
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  3.696420669555664 purity_seq =  0.59037
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.859952561121112 -23.859952561121112
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  22.18764328956604 purity =  0.78037
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.213507270610435
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.579837497050022
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.5797386169433594 purity =  0.53281
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.093798302342147
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.537517640502216
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.625009298324585 purity_coreset =  0.48389
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.60641876918122
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.7508766651153564 purity_seq =  0.75349
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.97183749432168 -24.971837494321683
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  25.00700330734253 purity =  0.86847
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -28.081324711983342
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.4740901265298
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  1.5731501579284668 purity =  0.63469
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -28.054382188013353
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.35613789076435
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.106933116912842 purity_coreset =  0.62156
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.58658960955775
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+time =  2.9964025020599365 purity_seq =  0.78868
+timer_avg: [35.422569489479066, 3.0616408705711367, 2.1982894778251647, 3.0922584414482115]
+loss_avg: [-24.229718225059596, -27.562124741455232, -27.58120116814253, -27.92997825136692]
+purity_avg: [0.7619215, 0.5044405, 0.5100035, 0.6882014999999999]
+timer_std: [13.436325529828588, 1.0941596086591954, 0.724677985388542, 0.5476866506280846]
+loss_std: [0.3902818787075482, 0.3851191251086395, 0.4171699423238928, 0.37680407793591275]
+purity_std: [0.04467931549106364, 0.09608584554839489, 0.08163374328517589, 0.06565018509303687]
+d= 12 n_components= 20 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.05400697986247 -24.05400697986247
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  54.94579815864563 purity =  0.77687
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.048801964808423
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.560009115132345
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.632768869400024 purity =  0.3407
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.972067017196967
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.645151501131103
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.6337270736694336 purity_coreset =  0.29726
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.648089093029892
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.8045313358306885 purity_seq =  0.65643
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.009063172500582 -24.009063172500575
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  53.910908699035645 purity =  0.72398
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.171531946903304
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.890876979141286
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.256618022918701 purity =  0.34424
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.090950519764956
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.769396719377504
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.76216197013855 purity_coreset =  0.32475
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.52133562408312
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.87388014793396 purity_seq =  0.53715
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.989602561171086 -23.989602561171093
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  57.812087059020996 purity =  0.69736
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.224555643298896
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.77327672669543
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.317607164382935 purity =  0.34423
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.181932372180214
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.83564008230671
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  6.79850697517395 purity_coreset =  0.32434
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.709681278559536
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  7.264114618301392 purity_seq =  0.57997
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.06049707703304 -24.06049707703304
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  53.22523021697998 purity =  0.76071
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.437831997450353
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.90958703828877
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.1136865615844727 purity =  0.48286
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.925319838718767
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.476650039763335
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.8585290908813477 purity_coreset =  0.35174
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.66816906670149
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.798338174819946 purity_seq =  0.61315
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.70597113434203 -23.705971134342025
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  36.218087911605835 purity =  0.75002
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.635725715970207
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.207473292927368
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.8657126426696777 purity =  0.28546
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.761537302719603
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.356878154742923
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.8050270080566406 purity_coreset =  0.31709
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.09857307262033
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.1562299728393555 purity_seq =  0.5045
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.794581817183662 -23.794581817183662
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  42.81548500061035 purity =  0.70417
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.72310067942283
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.45230887240247
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  6.350930452346802 purity =  0.22803
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.97970091976257
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.641659228512893
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.941644668579102 purity_coreset =  0.32714
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.434275048247244
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.783236742019653 purity_seq =  0.61271
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.206432040726426 -24.206432040726423
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  43.59868669509888 purity =  0.68941
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.221675885286714
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.96354235465983
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  6.051353216171265 purity =  0.27644
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.211956396160787
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.853455343556433
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.8978774547576904 purity_coreset =  0.20114
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.80721745589927
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.968132972717285 purity_seq =  0.54232
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.86047083730758 -23.860470837307577
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  39.34298610687256 purity =  0.77023
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.98569631017443
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.615743828905224
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.945767879486084 purity =  0.40208
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.19724287584491
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.64017533795127
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.760443925857544 purity_coreset =  0.5369
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.340015775874694
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19}
+time =  5.244978427886963 purity_seq =  0.58309
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.781407854713077 -23.781407854713077
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  54.56022310256958 purity =  0.67038
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.851423997534454
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.500293267726338
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.0525834560394287 purity =  0.19968
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.09569689865293
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.689413870440774
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.6587603092193604 purity_coreset =  0.3151
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.33172219831845
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.827255725860596 purity_seq =  0.49973
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.794827839939018 -23.794827839939018
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  45.255202770233154 purity =  0.7366
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.742667885844483
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.381693158327266
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.091715574264526 purity =  0.26991
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.901484234540284
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.579407939114876
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.732673168182373 purity_coreset =  0.32407
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.410431706239297
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18}
+time =  6.643972396850586 purity_seq =  0.60444
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.87435634652175 -23.87435634652175
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  55.25870609283447 purity =  0.62443
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.099013452442954
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.647488965474185
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.629575729370117 purity =  0.21768
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.976263340372764
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.66706640084032
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.033036708831787 purity_coreset =  0.16135
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.48620577843698
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19}
+time =  8.686749458312988 purity_seq =  0.4834
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.37002475694263 -24.37002475694263
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  38.696369886398315 purity =  0.76775
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.453971570770825
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.014891218479324
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.651456117630005 purity =  0.38349
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.607082294092724
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.141676441393027
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  6.287523508071899 purity_coreset =  0.45732
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.91409415232925
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.6296916007995605 purity_seq =  0.60504
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.883140295632423 -23.883140295632426
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  61.06638479232788 purity =  0.66963
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.26362618765867
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.82149280528189
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  6.22617244720459 purity =  0.35301
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.957288061218023
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.746527844789146
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.928938865661621 purity_coreset =  0.21213
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.49223699025366
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.489762544631958 purity_seq =  0.53897
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.94712775007156 -23.94712775007156
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  43.987916469573975 purity =  0.76176
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.956469213279387
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.5177851050401
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.766032695770264 purity =  0.33321
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.7041283306353
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.433092989942928
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.259420156478882 purity_coreset =  0.19232
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.361934559936774
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.563437223434448 purity_seq =  0.52649
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.328484876398917 -24.328484876398925
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  46.26877427101135 purity =  0.7272
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.393268706215416
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.039176873180644
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.5004193782806396 purity =  0.35685
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.387497410383062
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.965392169368513
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.832390308380127 purity_coreset =  0.30948
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.783904225375597
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.220710277557373 purity_seq =  0.49294
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.411814262627193 -24.411814262627196
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  51.1836998462677 purity =  0.75162
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.374856085457242
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.998438938172498
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  2.7524924278259277 purity =  0.37157
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.187941169865017
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.75975442389567
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.4534878730773926 purity_coreset =  0.26288
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -28.04917726584386
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.292846202850342 purity_seq =  0.64141
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.062998190366336 -24.062998190366343
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  59.71238398551941 purity =  0.70008
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.16462738509703
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.82581316159855
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.431065082550049 purity =  0.25049
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.158821891191845
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.760114355113174
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.4262449741363525 purity_coreset =  0.20357
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.40163518644302
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.1806018352508545 purity_seq =  0.41799
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.10197002988941 -24.101970029889415
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  52.156312465667725 purity =  0.76637
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.104139126489706
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.65144440712162
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.150930881500244 purity =  0.35692
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.24924911085192
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.750224365275827
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.0685155391693115 purity_coreset =  0.44906
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -27.52496237044474
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.8121564388275146 purity_seq =  0.56888
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.100499347193885 -24.10049934719389
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  38.45104932785034 purity =  0.77404
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.237239797379985
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.74145678315946
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  8.179741859436035 purity =  0.45508
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.777450668103118
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.365190754547132
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  1.2157979011535645 purity_coreset =  0.22738
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.78978653732774
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  4.372482776641846 purity_seq =  0.71866
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.479115939983902 -24.479115939983902
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  51.44368505477905 purity =  0.70868
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.714559155641354
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.397573746698228
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  5.472745656967163 purity =  0.42445
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.831392449942665
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.434438327600876
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.9760334491729736 purity_coreset =  0.39938
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+---Negative Logarithmic Likelihood(in full data)---= -28.2371254966302
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+time =  3.654279947280884 purity_seq =  0.68943
+timer_avg: [48.99549889564514, 4.571968805789948, 3.016537046432495, 5.363369441032409]
+loss_avg: [-24.04081965552035, -27.14023913535633, -27.10775015510992, -27.60052864412976]
+purity_avg: [0.7265645, 0.333819, 0.30972, 0.570835]
+timer_std: [7.396702541116056, 1.5070435147241763, 1.5027462222416519, 1.10517950043094]
+loss_std: [0.2184857899802332, 0.26597787593913075, 0.2690298142040298, 0.2669181621728966]
+purity_std: [0.04138126755852217, 0.07573384229655854, 0.09517243923531644, 0.07272040521751787]
+d= 12 n_components= 24 -----------------------------------------
+----repeat round: 0 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.127135871196565 -24.12713587119657
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  58.43903708457947 purity =  0.68852
+----repeat round: 0 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.953603839529453
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.85004786199155
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.9184253215789795 purity =  0.16955
+----repeat round: 0 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.055751134744167
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.754495517452625
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.9557480812072754 purity_coreset =  0.16697
+----repeat round: 0 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.616467419701497
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.099563360214233 purity_seq =  0.44025
+----repeat round: 1 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.07355792718677 -24.07355792718676
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  78.66821694374084 purity =  0.64342
+----repeat round: 1 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.12055480422715
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.99343076749567
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.47875452041626 purity =  0.2296
+----repeat round: 1 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.091159397461094
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.86805810328775
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.2314960956573486 purity_coreset =  0.17005
+----repeat round: 1 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.56792220561839
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.4616477489471436 purity_seq =  0.40654
+----repeat round: 2 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.28791043134895 -24.28791043134895
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  75.49927997589111 purity =  0.70348
+----repeat round: 2 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.21081708636211
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.874305477889447
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.771687746047974 purity =  0.23017
+----repeat round: 2 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.168822620478803
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.9651599592841
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.1308093070983887 purity_coreset =  0.21256
+----repeat round: 2 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.650864868463838
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.414336204528809 purity_seq =  0.42607
+----repeat round: 3 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.412158264765804 -24.412158264765804
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  66.15014576911926 purity =  0.67681
+----repeat round: 3 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.383687107389587
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.300345077413446
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.280718088150024 purity =  0.23673
+----repeat round: 3 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.314823758703103
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.123260257861187
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.6510984897613525 purity_coreset =  0.19704
+----repeat round: 3 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.888799697623
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.024205207824707 purity_seq =  0.43145
+----repeat round: 4 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.066029271527455 -24.066029271527444
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  68.3825192451477 purity =  0.7464
+----repeat round: 4 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.784156036749007
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.661654934360296
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.0482609272003174 purity =  0.19581
+----repeat round: 4 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.842709498057687
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.706408753702345
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.609816551208496 purity_coreset =  0.2005
+----repeat round: 4 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.41549734324793
+y labels: {0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  8.201136112213135 purity_seq =  0.48717
+----repeat round: 5 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.340364761566537 -24.340364761566534
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  79.34893870353699 purity =  0.71382
+----repeat round: 5 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.040049944000565
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.789010293142475
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.1854207515716553 purity =  0.1951
+----repeat round: 5 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.16714335997491
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.870226262418768
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.509355545043945 purity_coreset =  0.24292
+----repeat round: 5 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.566821941690986
+y labels: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.380440711975098 purity_seq =  0.42776
+----repeat round: 6 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.961191917881667 -23.961191917881667
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  77.39174485206604 purity =  0.68029
+----repeat round: 6 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.817309093741034
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.55303227501551
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.315681219100952 purity =  0.17114
+----repeat round: 6 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.822086364712924
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.686386023118967
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.1218767166137695 purity_coreset =  0.17224
+----repeat round: 6 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.460211469329625
+y labels: {1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23}
+time =  11.608771085739136 purity_seq =  0.44644
+----repeat round: 7 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.449968987907017 -23.449968987907017
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  75.5324866771698 purity =  0.70492
+----repeat round: 7 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.21059012011085
+---Negative Logarithmic Likelihood(in weighted coreset)---= -26.955674269791245
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.2085678577423096 purity =  0.18148
+----repeat round: 7 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.198432232621737
+---Negative Logarithmic Likelihood(in weighted coreset)---= -26.91231281625742
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.644094944000244 purity_coreset =  0.19731
+----repeat round: 7 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -26.749321805955347
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.651074171066284 purity_seq =  0.39365
+----repeat round: 8 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.887094821491353 -23.887094821491353
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  65.28779125213623 purity =  0.67914
+----repeat round: 8 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.772414649927654
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.404306965976577
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.909741163253784 purity =  0.16495
+----repeat round: 8 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.660008728823044
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.59014670157994
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.219262361526489 purity_coreset =  0.17481
+----repeat round: 8 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.48436319293851
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.966440439224243 purity_seq =  0.51775
+----repeat round: 9 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.824768682076304 -23.82476868207631
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  58.74904727935791 purity =  0.69141
+----repeat round: 9 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.91166944562728
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.628804450295032
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  9.957543849945068 purity =  0.33754
+----repeat round: 9 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.807071493079164
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.429456774520197
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.7757503986358643 purity_coreset =  0.22187
+----repeat round: 9 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.282969004740355
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.057925224304199 purity_seq =  0.42814
+----repeat round: 10 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.800613371842303 -23.800613371842307
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  61.8170063495636 purity =  0.61868
+----repeat round: 10 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.803308247855618
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.61352571297438
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.736846446990967 purity =  0.14344
+----repeat round: 10 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.897830604116024
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.756982071847183
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.9962966442108154 purity_coreset =  0.17827
+----repeat round: 10 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.203943104721432
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.878147125244141 purity_seq =  0.32034
+----repeat round: 11 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.259550999219 -24.259550999219
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  131.7090129852295 purity =  0.74464
+----repeat round: 11 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.8630741824586
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.63807567744313
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  2.4929959774017334 purity =  0.18051
+----repeat round: 11 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.23574061678866
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.950256717763054
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.249483346939087 purity_coreset =  0.33615
+----repeat round: 11 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.619397662700713
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.9354939460754395 purity_seq =  0.47262
+----repeat round: 12 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.8785679527624 -23.8785679527624
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  70.1210823059082 purity =  0.69642
+----repeat round: 12 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.661542214719617
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.39976624568671
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.621497392654419 purity =  0.20638
+----repeat round: 12 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.642781018988128
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.457724704530946
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.035970211029053 purity_coreset =  0.16801
+----repeat round: 12 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.374651314785048
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.9621641635894775 purity_seq =  0.49363
+----repeat round: 13 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.762480924226352 -23.762480924226356
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  107.38169026374817 purity =  0.65798
+----repeat round: 13 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.791477591322604
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.5328201440173
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.9518051147460938 purity =  0.22726
+----repeat round: 13 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.682306423224773
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.535031964762805
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.1673476696014404 purity_coreset =  0.16297
+----repeat round: 13 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.34606870724343
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 22, 23}
+time =  8.027058124542236 purity_seq =  0.42362
+----repeat round: 14 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.480457185466328 -23.480457185466314
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  81.13498973846436 purity =  0.65615
+----repeat round: 14 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.37709293602019
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.3964544303972
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.0274200439453125 purity =  0.12677
+----repeat round: 14 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.464047464257796
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.21233693945417
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.2949211597442627 purity_coreset =  0.15779
+----repeat round: 14 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -26.816496679150013
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.04638409614563 purity_seq =  0.33599
+----repeat round: 15 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.25526711967926 -24.255267119679264
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  65.75939106941223 purity =  0.65194
+----repeat round: 15 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.128417534482175
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.870216540789258
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  4.196940898895264 purity =  0.21069
+----repeat round: 15 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.942011610274104
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.986464041280666
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  8.840601205825806 purity_coreset =  0.14502
+----repeat round: 15 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.825403181139507
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 23}
+time =  9.201488494873047 purity_seq =  0.4791
+----repeat round: 16 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.194033663051147 -24.194033663051147
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  72.35566139221191 purity =  0.74747
+----repeat round: 16 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.98135641558208
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.683175803364115
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.989970684051514 purity =  0.25175
+----repeat round: 16 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.937799869363097
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.65261880135535
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.4112467765808105 purity_coreset =  0.19117
+----repeat round: 16 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.65977994682856
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  7.070723295211792 purity_seq =  0.57226
+----repeat round: 17 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -24.34104270871086 -24.341042708710866
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  74.00863003730774 purity =  0.72523
+----repeat round: 17 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.14186963788053
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.00878639783009
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.9878673553466797 purity =  0.24862
+----repeat round: 17 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.273120415439067
+---Negative Logarithmic Likelihood(in weighted coreset)---= -28.005213988507784
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.5304081439971924 purity_coreset =  0.26369
+----repeat round: 17 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.82302319954636
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  6.250663995742798 purity_seq =  0.50869
+----repeat round: 18 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.989109542526975 -23.989109542526975
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  45.97074627876282 purity =  0.75896
+----repeat round: 18 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -27.020279791224297
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.790107281820834
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.695006847381592 purity =  0.38994
+----repeat round: 18 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -27.01968464087617
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.7149993775225
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.2297685146331787 purity_coreset =  0.37258
+----repeat round: 18 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+---Negative Logarithmic Likelihood(in full data)---= -27.525419973051438
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  5.656429290771484 purity_seq =  0.62042
+----repeat round: 19 ,full dataset:
+---Negative Logarithmic Likelihood(in full data)---= -23.663452616907037 -23.663452616907037
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  74.97676467895508 purity =  0.65148
+----repeat round: 19 ,uniform sampling:
+---Negative Logarithmic Likelihood(in full data)---= -26.69255152915987
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.414092440212617
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  3.6485815048217773 purity =  0.17898
+----repeat round: 19 ,coreset:
+---Negative Logarithmic Likelihood(in full data)---= -26.634463362018078
+---Negative Logarithmic Likelihood(in weighted coreset)---= -27.422324891602653
+y labels: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23}
+time =  1.9151346683502197 purity_coreset =  0.17288
+----repeat round: 19 ,seq_core:
+constructing coreset. iter # =  1
+constructing coreset. iter # =  3
+constructing coreset. iter # =  6
+constructing coreset. iter # =  12
+constructing coreset. iter # =  24
+constructing coreset. iter # =  48
+constructing coreset. iter # =  96
+constructing coreset. iter # =  192
+constructing coreset. iter # =  384
+---Negative Logarithmic Likelihood(in full data)---= -27.195261196000416
+y labels: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23}
+time =  9.483938455581665 purity_seq =  0.38013
+timer_avg: [74.43420914411544, 4.671186685562134, 3.526024341583252, 7.168901562690735]
+loss_avg: [-24.002737851067007, -26.883291110418515, -26.892889730700126, -27.453634195723815]
+purity_avg: [0.6918580000000001, 0.21382050000000002, 0.20524, 0.4506009999999999]
+timer_std: [17.63915881409307, 2.0137315957700546, 1.9789696815791638, 1.476987422221713]
+loss_std: [0.27591700021071064, 0.26792224623202604, 0.28167895500371626, 0.29248278839945785]
+purity_std: [0.03818368848081599, 0.060417876367429534, 0.05753269783349291, 0.0703954084369144]
+Timer_avg_table =  [[2.685626208782196, 0.09966481924057007, 0.1228104829788208, 0.4555539608001709], [9.305210328102111, 0.3269354820251465, 0.36950520277023313, 1.0459114074707032], [19.573862767219545, 1.0031535744667053, 1.196376883983612, 1.9952925205230714], [35.422569489479066, 3.0616408705711367, 2.1982894778251647, 3.0922584414482115], [48.99549889564514, 4.571968805789948, 3.016537046432495, 5.363369441032409], [74.43420914411544, 4.671186685562134, 3.526024341583252, 7.168901562690735]]
+Loss_avg_table =  [[-25.112882475230666, -28.97977929771663, -28.966521506343252, -28.99613871598256], [-24.612692512543422, -28.43218261033355, -28.41778912705474, -28.4261205097254], [-24.350381729708694, -28.11293947656671, -28.014235329729065, -28.09135176675799], [-24.229718225059596, -27.562124741455232, -27.58120116814253, -27.92997825136692], [-24.04081965552035, -27.14023913535633, -27.10775015510992, -27.60052864412976], [-24.002737851067007, -26.883291110418515, -26.892889730700126, -27.453634195723815]]
+Purity_avg_table =  [[0.9243030000000001, 0.9107459999999999, 0.903914, 0.9226849999999999], [0.8459584999999998, 0.8229974999999999, 0.8291305, 0.8305039999999998], [0.7881220000000002, 0.7280845, 0.6842935, 0.7303545], [0.7619215, 0.5044405, 0.5100035, 0.6882014999999999], [0.7265645, 0.333819, 0.30972, 0.570835], [0.6918580000000001, 0.21382050000000002, 0.20524, 0.4506009999999999]]
+Timer_std_table =  [[0.6738339038395011, 0.051191224120084235, 0.0884468219720855, 0.06756199702310108], [4.280644363835012, 0.10225024610198297, 0.1250841102951592, 0.13897657181839082], [5.908425260963461, 0.36918173476418054, 0.3467239386224152, 0.38739180792794], [13.436325529828588, 1.0941596086591954, 0.724677985388542, 0.5476866506280846], [7.396702541116056, 1.5070435147241763, 1.5027462222416519, 1.10517950043094], [17.63915881409307, 2.0137315957700546, 1.9789696815791638, 1.476987422221713]]
+Loss_std_table =  [[0.5740627630387605, 0.6033872579062298, 0.625893696429766, 0.5741441618737732], [0.47319563071138016, 0.5099828795526005, 0.4204214771173715, 0.41528682842438236], [0.3135343863292205, 0.3530548231896359, 0.32280862689915724, 0.3249402050291037], [0.3902818787075482, 0.3851191251086395, 0.4171699423238928, 0.37680407793591275], [0.2184857899802332, 0.26597787593913075, 0.2690298142040298, 0.2669181621728966], [0.27591700021071064, 0.26792224623202604, 0.28167895500371626, 0.29248278839945785]]
+Purity_std_table =  [[0.03888858317038563, 0.07226845185833167, 0.08539378457475698, 0.039932144883539626], [0.048997352303466336, 0.06474630127466742, 0.05174656321679732, 0.05344062784062328], [0.031675529766682683, 0.07944172521257328, 0.08221002227678811, 0.06518457911768703], [0.04467931549106364, 0.09608584554839489, 0.08163374328517589, 0.06565018509303687], [0.04138126755852217, 0.07573384229655854, 0.09517243923531644, 0.07272040521751787], [0.03818368848081599, 0.060417876367429534, 0.05753269783349291, 0.0703954084369144]]

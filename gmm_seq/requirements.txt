@@ -1,0 +1,6 @@
+pybind11>=2.2
+scikit-learn>=1.0.2
+numpy>=1.13.3
+scipy>=1.1.0
+pytest
+matplotlib

@@ -1,0 +1,10 @@
+.idea
+*.so
+.cache
+build
+var
+*egg-info
+*.egg
+*.swp
+*.pyc
+tmp/
