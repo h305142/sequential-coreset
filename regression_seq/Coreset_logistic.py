@@ -1,52 +1,67 @@
 import numpy as np
 import copy
 import random
+
 global lamda
-import  time
+import time
 import warnings
 import os
 import scipy.io as scio
 import MainProgram
+import pandas as pd
+
+from sklearn.preprocessing import MinMaxScaler
 warnings.filterwarnings('ignore')
-lamd=1
-epsilon=1e-6
-learning_rate=0.1
+epsilon = 1e-3
+learning_rate = 1
+
+
 def set_seed(seed=0):
     random.seed(seed)
     np.random.seed(seed)
 
-set_seed()
 
 
-def parameters_set(n=2e3,lam=1000,Rd=1):
-    #n变为了coresetsize，Rd为几个R长度
-    global coreset_size,lamd,R_ball
-    coreset_size=int(n)
-    lamd=lam
-    R_ball=Rd
-    # return num,dim,coreset_size,sigma
+def parameters_set(n=2e3, lam=1000, Rd=1):
+    """
+     n is the coreset size
+     """
+    global coreset_size, lamd, R_ball
+    coreset_size = int(n)
+    lamd = lam
+    R_ball = Rd
 
-def data_syn(d=20):
-    global num,dim,sigma
-    num = int(1e6)
-    dim=d
-    sigma =1
+
+def data_syn(N,d=20):
+    """
+    generate synthetic dataset
+
+    """
+    global num, dim, sigma
+    num = int(N)
+    dim = d
+    sigma = 1
     X = np.random.rand(num, dim)
     c = np.ones([num, 1])
     X = np.hstack((X, c))
-    h = (np.random.rand(dim + 1, 1) - 0.5)*10
+    h = (np.random.rand(dim + 1, 1) - 0.5) * 10
     y = np.dot(X, h)
     mean = np.mean(y)
-    y = y  + np.random.randn(num, 1) * sigma
+    y = y + np.random.randn(num, 1) * sigma
+
     y = (1 + np.sign(y - mean)) / 2
-    h[dim] -= mean/2
-    return X,y,h
+    h[dim] -= mean / 2
+    return X, y, h
 
-import pandas as pd
 
-from sklearn.preprocessing import MinMaxScaler
 
-def data_real(filename,lam=1):
+
+
+def data_real(filename, lam=1):
+    """
+    deal the real dataset
+
+    """
     global num, dim
     data = pd.read_csv(filename, sep=',', header=None)
     y = data.iloc[:, -1]
@@ -60,356 +75,293 @@ def data_real(filename,lam=1):
     c = np.ones([num, 1])
     X = np.hstack((X, c))
     y = y.values
-    y = y.reshape(y.shape[0],1)
-    y[y<0]=0
-    return X,y
+    y = y.reshape(y.shape[0], 1)
+    y[y < 0] = 0
+    return X, y
 
 
-def Cal_sample_base(coreset_size,N,k=1):
-    All_size=0
-    for i in range(N+1):
-        All_size+=np.power(1+1/(np.power(2,i)*k),2)
-    return np.floor(coreset_size/All_size)
-
-def coreset_lr(X,y,h,lamda=lamd):
+def coreset_lr(X, y, h):
+    """
+          layer sampling, and  the ratio of sample items preserve same for different layers .
+          """
     xbeta = np.dot(X, h)
     f = -y * xbeta + np.log(1 + np.exp(xbeta))
     X = np.hstack((X, y))
-    L_max=np.max(f,0)
-    H=np.sum(f,0)/X.shape[0]
+    L_max = np.max(f, 0)
+    H = np.sum(f, 0) / X.shape[0]
 
-    N=int(np.ceil(np.log2(L_max/H)))
+    N = int(np.ceil(np.log2(L_max / H)))
     print(L_max, H, N)
-    k=1
-    sample_base=Cal_sample_base(coreset_size=coreset_size,N=N,k=k)
-    coreset=[]
-    Weight=[]
-    for i in range(1,N+1):
-        index_i=np.array(np.where((f>H*pow(2,i-1)) & (f<=H*pow(2,i))))[0]
-        sample_num_i=int(sample_base*np.power(1+1/(np.power(2,i)*k),2))
-        if sample_num_i>0:
-            if len(coreset)==0:
-                if sample_num_i <= index_i.shape[0]:
-                    choice = index_i[np.random.permutation(index_i.shape[0])[0:sample_num_i]]
-                    coreset =X[choice, :]
-                    Weight = np.ones((sample_num_i, 1))*(index_i.shape[0] / sample_num_i)
-                else:
-                    coreset =  X[index_i, :]
-                    Weight = np.ones((len(index_i), 1))
+    sample_base = coreset_size / X.shape[0]
+    coreset = []
+    Weight = []
+    for i in range(1, N + 1):
+        index_i = np.array(np.where((f > H * pow(2, i - 1)) & (f <= H * pow(2, i))))[0]
+        sample_num_i = int(sample_base * index_i.shape[0])
+        if sample_num_i > 0:
+            choice = index_i[np.random.permutation(index_i.shape[0])[0:sample_num_i]]
+            if len(coreset) == 0:
+                coreset = X[choice, :]
+                Weight = np.ones((sample_num_i, 1)) * (index_i.shape[0] / sample_num_i)
             else:
-                if sample_num_i <= index_i.shape[0]:
-                    choice = index_i[np.random.permutation(index_i.shape[0])[0:sample_num_i]]
-                    coreset = np.vstack((coreset, X[choice, :]))
-                    Weight = np.vstack((Weight, np.ones((sample_num_i, 1)) * (index_i.shape[0] / sample_num_i)))
-                else:
-                    coreset = np.vstack((coreset, X[index_i, :]))
-                    Weight = np.vstack((Weight, np.ones((len(index_i), 1))))
+                coreset = np.vstack((coreset, X[choice, :]))
+                Weight = np.vstack((Weight, np.ones((sample_num_i, 1)) * (index_i.shape[0] / sample_num_i)))
     index_i = np.array(np.where(f <= H))[0]
-    sample_num_i = coreset_size - coreset.shape[0]
-    if sample_num_i<=index_i.shape[0]:
-        choice = index_i[np.random.permutation(index_i.shape[0])[0:sample_num_i]]
+    sample_num_i = coreset_size - len(coreset)
+    choice = index_i[np.random.permutation(index_i.shape[0])[0:sample_num_i]]
+    if len(coreset) == 0:
+        coreset = X[choice, :]
+        Weight = np.ones((sample_num_i, 1)) * (index_i.shape[0] / sample_num_i)
+    else:
         coreset = np.vstack((coreset, X[choice, :]))
         Weight = np.vstack((Weight, np.ones((sample_num_i, 1)) * (index_i.shape[0] / sample_num_i)))
-    else:
-        coreset = np.vstack((coreset, X[index_i, :]))
-        Weight = np.vstack((Weight, np.ones((index_i.shape[0], 1))))
-    return coreset[:,0:dim+1],coreset[:,dim+1:dim+2],Weight
+
+    return coreset[:, 0:dim + 1], coreset[:, dim + 1:dim + 2], Weight
 
 
-def FGD(max_iter, X,y,weight,h,lr=0.01):
-    """
-        FGD优化regression
-        """
+def FGD(max_iter, X, y, weight, h, lr=0.01):
     for iter in range(max_iter):
         xbeta = np.dot(X, h)
-        gradient_f = np.sum(weight * (-y * X + (np.exp(xbeta) * X) / (1 + np.exp(xbeta))),0)[:, np.newaxis]/np.sum(weight)
-        h -=lr*gradient_f
+        gradient_f = np.sum(weight * (-y * X + (np.exp(xbeta) * X) / (1 + np.exp(xbeta))), 0)[:, np.newaxis] / np.sum(
+            weight)
+        h -= lr * gradient_f
     return h
 
 
-def Solution_Range(beta_title,beta,R):
-    if (np.sum(np.power(beta-beta_title,2)) >= R):
+def Solution_Range(beta_title, beta, R):
+    """
+    Discriminate beta is out of the range of beta_title
+    """
+    if (np.sum(np.power(beta - beta_title, 2)) >= R):
         return False
     else:
         return True
 
 
-def lg_coreset_run(X,y,optimal,R_ball,lamda=lamd,epoch_max=1000):
+def lg_coreset_run(args, R_ball):
     """
-        SGD优化sequential coreset regression的具体过程
-        """
+         Our algorithm, when the beta reach the bound of beta_anc, reconstruct the coreset
+
+         """
+    X, y, lamda, epoch_max, init = args
     max_iter = 1
     lr = learning_rate
     index = np.random.permutation(X.shape[0])[0:coreset_size]
     weight_0 = np.ones((coreset_size, 1)) * X.shape[0] / coreset_size
-    beta_title=optimal(max_iter*10,X[index,:],y[index,:],weight_0, h=np.ones((X.shape[1], 1)), lr=lr)
-    coreset_x,coreset_y,weight= coreset_lr(X,y,beta_title)
-    beta=copy.deepcopy(beta_title)
-    l_before = l2_loss_coreset(coreset_x, coreset_y, beta, weight)
-    beta_title2=beta.copy()
-    iteration = []
-    for iter in range(max_iter,max_iter*epoch_max,max_iter):
-        beta = optimal(max_iter, coreset_x, coreset_y, weight, beta,lr=lr)
-        R=R_ball
-        if not Solution_Range(beta_title,beta,R):
-            start = time.time()
-            beta_title=copy.deepcopy(beta)
-            coreset_x, coreset_y, weight = coreset_lr(X, y, beta_title)
-        if (iter % 50 == 0):
-            iteration.append(l2_loss(X, y, beta, lamda))
-        if np.linalg.norm(beta-beta_title2,2)<epsilon:
-            print('iter:',iter)
-            break
-        beta_title2=beta.copy()
-    return beta,iteration
-
-def lg_run(X,y,optimal,lamda=lamd,epoch_max=1000):
-    """
-            SGD优化原始数据集regression的具体过程
-            """
-    max_iter = 1
-    lr = learning_rate
-    beta_title = optimal(max_iter*10, X, y, np.ones((X.shape[0], 1)),
-                                   h=np.ones((X.shape[1], 1)),lr=lr)
-    l_before = l2_loss(X, y, beta_title)
-    iteration =[]
-    beta=beta_title.copy()
-    for iter in range(max_iter,max_iter*epoch_max,max_iter):
-        beta = optimal(max_iter, X, y, np.ones((X.shape[0], 1)), beta,
-                                 lr=lr )
-        if (iter % 50 == 0):
-            iteration.append(l2_loss(X, y, beta, lamda))
-        if np.linalg.norm(beta-beta_title,2)<epsilon:
-            print('iter:',iter)
-            break
-        beta_title=beta.copy()
-    # print(beta_title)
-    return beta,iteration
-
-def lg_coreset_once_run(X,y,optimal,lamda=lamd,epoch_max=1000):
-    max_iter = 1
-    lr = learning_rate
-    index = np.random.permutation(X.shape[0])[0:coreset_size]
-    weight_0 = np.ones((coreset_size, 1)) * X.shape[0] / coreset_size
-    beta_title = optimal(max_iter * 10, X[index, :], y[index, :], weight_0, h=np.ones((X.shape[1], 1)),
-                                       lr=lr)
+    beta_title = FGD(max_iter * 10, X[index, :], y[index, :], weight_0, h=init, lr=lr)
     coreset_x, coreset_y, weight = coreset_lr(X, y, beta_title)
     beta = copy.deepcopy(beta_title)
-    l_before = l2_loss_coreset(coreset_x, coreset_y, beta, weight)
-    iteration =[]
+    beta_title2 = beta.copy()
+    iteration = max_iter * epoch_max
     for iter in range(max_iter, max_iter * epoch_max, max_iter):
-        beta = optimal(max_iter, coreset_x, coreset_y, weight, beta,  lr=lr)
-        if (iter % 50 == 0):
-            iteration.append(l2_loss(X, y, beta, lamda))
-        if np.linalg.norm(beta-beta_title,2)<epsilon:
+        beta = FGD(max_iter, coreset_x, coreset_y, weight, beta, lr=lr)
+        R = R_ball
+        if not Solution_Range(beta_title, beta, R):
+            beta_title = copy.deepcopy(beta)
+            coreset_x, coreset_y, weight = coreset_lr(X, y, beta_title)
+        if np.linalg.norm(beta - beta_title2, 2) < epsilon:
             print('iter:', iter)
+            iteration = iter
             break
-        beta_title=beta.copy()
-    # print(beta)
+        beta_title2 = beta.copy()
+
     return beta, iteration
 
-def unisample_run(X,y,optimal,lamda=lamd,epoch_max=1000):
-    max_iter = 1
-    lr = learning_rate
+
+def lg_run(args):
+    """
+       run the algorithm on original datasets to get initial beta
+               """
+    X, y, init, lr = args
+    beta_title = FGD(10, X, y, np.ones((X.shape[0], 1)),
+                     h=init, lr=lr)
+    return X, y, np.ones((X.shape[0], 1)), beta_title
+
+
+def lg_coreset_once_run(args):
+    """
+    oneshot for  initial beta and coreset
+      """
+    X, y, init, lr = args
     index = np.random.permutation(X.shape[0])[0:coreset_size]
-    weight_0=np.ones((coreset_size,1))*X.shape[0]/coreset_size
-    coreset_x,coreset_y,weight= X[index],y[index],weight_0
-    beta_title = optimal(max_iter*10, coreset_x, coreset_y, weight, np.ones((X.shape[1],1)), lr=lr)
-    beta=copy.deepcopy(beta_title)
-    l_before = l2_loss_coreset(coreset_x, coreset_y, beta, weight)
-    iteration = []
-    for iter in range(max_iter,max_iter*epoch_max,max_iter):
-        beta = optimal(max_iter, coreset_x, coreset_y, weight, beta,lr=lr)
-        if (iter % 50 == 0):
-            iteration.append(l2_loss(X, y, beta, lamda))
-        if np.linalg.norm(beta-beta_title,2)<epsilon:
-            print('iter:', iter)
-            break
-        beta_title=beta.copy()
-    # print(beta)
-    return beta,iteration
+    weight_0 = np.ones((coreset_size, 1)) * X.shape[0] / coreset_size
+    beta_title = FGD(10, X[index, :], y[index, :], weight_0, h=init,
+                     lr=lr)
+    coreset_x, coreset_y, weight = coreset_lr(X, y, beta_title)
+
+    return coreset_x, coreset_y, weight, beta_title
 
 
+def unisample_run(args):
+    """
+         uniform sample for  initial beta and coreset
+          """
+    X, y, init, lr = args
+    index = np.random.permutation(X.shape[0])[0:coreset_size]
+    weight_0 = np.ones((coreset_size, 1)) * X.shape[0] / coreset_size
+    coreset_x, coreset_y, weight = X[index], y[index], weight_0
+    beta_title = FGD(10, coreset_x, coreset_y, weight, init, lr=lr)
+    return coreset_x, coreset_y, weight, beta_title
 
 
-def near_convex_run(X,y,optimal,lamda=lamd,epoch_max=1000):
-    lr=learning_rate
-    max_iter = 1
+def near_convex_run(args):
+    """
+       importance sampling for  initial beta and coreset
+       """
+    X, y, init, lr = args
     trainset = np.hstack((X, y))
     coreset = MainProgram.MainProgram.main(trainset.copy(), type='logistic', sample_size=coreset_size)
-    coreset_x,coreset_y,weight=coreset[0].P[:,0:dim+1],(coreset[0].P[:,dim+1])[:,np.newaxis],coreset[0].W[:,np.newaxis]
-    coreset_y[coreset_y<0]=0
-    beta_title = optimal(max_iter*10, coreset_x, coreset_y, weight, np.ones((X.shape[1],1)), lr=lr)
-    beta=copy.deepcopy(beta_title)
-    iteration = []
-    l_before = l2_loss_coreset(coreset_x, coreset_y, beta,weight)
-    for iter in range(max_iter,max_iter*epoch_max,max_iter):
-        beta = optimal(max_iter, coreset_x, coreset_y, weight, beta, lr=lr)
-        if (iter % 50 == 0):
-            iteration.append(l2_loss(X, y, beta, lamda))
-        if np.linalg.norm(beta-beta_title,2)<epsilon:
+    coreset_x, coreset_y, weight = coreset[0].P[:, 0:dim + 1], (coreset[0].P[:, dim + 1])[:, np.newaxis], coreset[0].W[
+                                                                                                          :, np.newaxis]
+    coreset_y[coreset_y < 0] = 0
+    beta_title = FGD(10, coreset_x, coreset_y, weight, init, lr=lr)
+    return coreset_x, coreset_y, weight, beta_title
+
+
+def run(args):
+    """
+      Besides sequential methods，the same produces of other algorithms
+      """
+    X, y, lamda, epoch_max, init, sample_way = args
+    lr = learning_rate
+    max_iter = 1
+    coreset_x, coreset_y, weight, beta_title = sample_way([X, y, init, lr])
+    beta = copy.deepcopy(beta_title)
+    iteration = max_iter * epoch_max
+    for iter in range(max_iter, max_iter * epoch_max, max_iter):
+        beta = FGD(max_iter, coreset_x, coreset_y, weight, beta, lr=lr)
+        if np.linalg.norm(beta - beta_title, 2) < epsilon:
             print('iter:', iter)
+            iteration = iter
             break
-        beta_title=beta.copy()
-    return beta,iteration
+        beta_title = beta.copy()
+    return beta, iteration
 
 
-
-def l2_loss_coreset(X,y,beta,weight):
-    xbeta=np.dot(X, beta)
-    loss=np.sum(weight*(-y*xbeta+np.log(1+np.exp(xbeta))),0)/sum(weight)
-
-    return np.float(loss)
-
-def l2_loss(X,y,beta, lamda=lamd):
-    xbeta=np.dot(X, beta)
-    loss=np.sum(-y*xbeta+np.log(1+np.exp(xbeta)),0)/X.shape[0]
+def l2_loss(X, y, beta, lamda):
+    xbeta = np.dot(X, beta)
+    loss = np.sum(-y * xbeta + np.log(1 + np.exp(xbeta)), 0) / X.shape[0]
 
     return np.float(loss)
 
-def F_predict(X,y,beta):
-    y_predict=np.dot(X,beta)
-    y[y==0]=-1
-    right=np.count_nonzero(y_predict*y>0)/y.shape[0]
+
+def F_predict(X, y, beta):
+    y_predict = np.dot(X, beta)
+    y[y == 0] = -1
+    right = np.count_nonzero(y_predict * y > 0) / y.shape[0]
     return np.float(right)
 
-def l2_loss_test(X_test, y_test, beta, lamda=lamd):
+
+def l2_loss_test(X_test, y_test, beta, lamda):
     xbeta = np.dot(X_test, beta)
     loss = np.sum(-y_test * xbeta + np.log(1 + np.exp(xbeta)), 0) / X_test.shape[0]
     return np.float(loss)
 
-def main():
-    epoch_max=1000
-    lamda = 10000
-    print('lamda: ', lamda)
-    optimal = [FGD]
-    opt_path = ['FGD']
-    n_range = [i for i in range(100, 1100, 100)] + [i for i in range(1000, 11000, 1000)]
-    opt=0
-    for d in [50]:
-        X, y,h = data_syn(d=d)
-        train_size = int(0.9 * num)
-        X_train, X_test = X[0:train_size, :], X[train_size + 1:num, :]
-        y_train, y_test = y[0:train_size, :], y[train_size + 1:num, :]
-        X, y = X_train, y_train
-        Time = []
-        Loss = []
-        Iter = []
-        Loss_var = []
-        Beta = []
-        Beta_diff = []
-        Predict=[]
-        Loss_train_avg=[]
-        Loss_train_var=[]
-        time_1, flag = 0, 1
-        beta_origin, iter1 = 0, 0
-        for n in n_range:
-            parameters_set(n=n, lam=lamda)
-            print(opt_path[opt] + '  coersetR: {}'.format(n))
-            loss, tttime,loss_train = [], [],[]
-            iter, beta_res = [], []
-            beta_diff = []
-            predict=[]
-            alg_nums=8
-            for i in range(10):
-                timing= []
-                print('times:', i)
-                s = time.time()
-                print('origin LR:')
-                beta_origin, iter1 = lg_run(X, y, optimal=optimal[opt], lamda=lamda, epoch_max=epoch_max)
-                time_1 = time.time() - s
-                timing.append(time_1)
-                print('once coreset LR:')
-                s = time.time()
-                beta_layer, iter3 = lg_coreset_once_run(X, y, optimal=optimal[opt], lamda=lamda, epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('uniform LR:')
-                s = time.time()
-                beta_uniform, iter4 = unisample_run(X, y, optimal=optimal[opt], lamda=lamda, epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('sequential coreset2 LR:')
-                s = time.time()
-                beta_coreset2, iter5=lg_coreset_run(X, y, optimal=optimal[opt], R_ball=0.5,lamda=lamda, epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('sequential coreset3 LR:')
-                s = time.time()
-                beta_coreset3, iter6 = lg_coreset_run(X, y, optimal=optimal[opt], R_ball=1, lamda=lamda, epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('sequential coreset5 LR:')
-                s = time.time()
-                beta_coreset7, iter11 = lg_coreset_run(X, y, optimal=optimal[opt], R_ball=5, lamda=lamda,
-                                                       epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('sequential coreset5 LR:')
-                s = time.time()
-                beta_coreset8, iter12 = lg_coreset_run(X, y, optimal=optimal[opt], R_ball=10, lamda=lamda,
-                                                       epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                print('near convex')
-                s = time.time()
-                beta_near, iter7 = near_convex_run(X, y, optimal=optimal[opt], lamda=lamda, epoch_max=epoch_max)
-                timing.append(time.time() - s)
-                tttime.append(timing)
-                iter.append([iter1, iter3, iter4, iter5, iter6, iter11, iter12,iter7])
-                beta_res.append(
-                    [beta_origin, beta_layer, beta_uniform, beta_coreset2, beta_coreset3,
-                     beta_coreset7,beta_coreset8,beta_near])
-                scale = np.linalg.norm(beta_origin, ord=2)
-                beta_diff.append([np.sum(np.linalg.norm(beta_origin - beta_layer,ord=2) / scale).tolist(),
-                                  np.sum(np.linalg.norm(beta_origin - beta_uniform,ord=2) / scale).tolist(),
-                                  np.sum(np.linalg.norm(beta_origin - beta_coreset2,ord=2) / scale).tolist(),
-                                  np.sum(np.linalg.norm(beta_origin - beta_coreset3,ord=2) / scale).tolist(),
 
-                                  np.sum(np.linalg.norm(beta_origin - beta_coreset7, ord=2) / scale).tolist(),
-                                  np.sum(np.linalg.norm(beta_origin - beta_coreset8, ord=2) / scale).tolist(),
-                                  np.sum(np.linalg.norm(beta_origin - beta_near,ord=2) / scale).tolist()])
-                loss.append([l2_loss_test(X_test, y_test, beta_origin, lamda=lamda),l2_loss_test(X_test, y_test, beta_layer, lamda=lamda),l2_loss_test(X_test, y_test, beta_uniform, lamda=lamda),
-                             l2_loss_test(X_test, y_test, beta_coreset2, lamda=lamda),
-                             l2_loss_test(X_test, y_test, beta_coreset3, lamda=lamda),
-                              l2_loss_test(X_test, y_test, beta_coreset7, lamda=lamda),
-                              l2_loss_test(X_test, y_test, beta_coreset8, lamda=lamda),
-                              l2_loss_test(X_test,y_test,beta_near,lamda=lamda)])
-                loss_train.append([l2_loss(X, y, beta_origin, lamda=lamda),
-                             l2_loss(X, y, beta_layer, lamda=lamda),
-                             l2_loss(X, y, beta_uniform, lamda=lamda),
-                             l2_loss(X, y, beta_coreset2, lamda=lamda),
-                             l2_loss(X, y, beta_coreset3, lamda=lamda),
-                             l2_loss(X, y, beta_coreset7, lamda=lamda),
-                             l2_loss(X, y, beta_coreset8, lamda=lamda),
-                             l2_loss(X, y, beta_near, lamda=lamda)])
-                predict1 = [F_predict(X_test, y_test.copy(), beta_origin),
-                            F_predict(X_test, y_test.copy(), beta_layer),
-                            F_predict(X_test, y_test.copy(), beta_uniform),
-                            F_predict(X_test, y_test.copy(), beta_coreset2),
-                            F_predict(X_test, y_test.copy(), beta_coreset3),
-                            F_predict(X_test, y_test.copy(), beta_coreset7),
-                            F_predict(X_test, y_test.copy(), beta_coreset8),
-                            F_predict(X_test, y_test.copy(), beta_near)
-                            ]
-                predict.append(predict1)
-            Predict.append(np.mean(predict,0).tolist())
-            Iter = np.mean(iter, 0)
+def evaluate(X, y, X_test, y_test, beta, lamda):
+    """
+      Evaluate the beta result
+      """
+    alg_nums, _, _ = np.shape(np.array(beta))
+    beta_diff, loss, loss_train, predict = [[] for _ in range(4)]
+    for i in range(alg_nums):
+        loss.append(l2_loss_test(X_test, y_test, beta[i], lamda=lamda))
+        loss_train.append(l2_loss(X, y, beta[i], lamda=lamda))
+        predict.append(F_predict(X_test, y_test.copy(), beta[i]))
+    scale = np.linalg.norm(beta[0], ord=2)
+    for i in range(1, alg_nums):
+        beta_diff.append(np.sum(np.linalg.norm(beta[0] - beta[i], ord=2) / scale).tolist())
+    return beta_diff, loss, loss_train, predict, scale
+
+
+def main():
+    epoch_max = 1000
+    lamda = 10000
+    opt_path = 'FGD'
+    n_range= [10,40,70,100,400,700,1000]
+    Num,dimension=1e5,50
+    for d in [dimension]:
+        X, y, h = data_syn(Num,d=d)
+        index_new = np.random.permutation(X.shape[0])
+        train_index = index_new[0:int(0.9 * X.shape[0])]
+        test_index = index_new[int(0.9 * X.shape[0] + 1):X.shape[0]]
+        X_train, X_test = X[train_index, :], X[test_index, :]
+        y_train, y_test = y[train_index, :], y[test_index, :]
+        X, y = X_train, y_train
+        Time, Time_var, Loss, Iter, Loss_var, Beta_var, Beta_diff, Predict, Predict_Var, Loss_train_avg, Loss_train_var, Scale = [
+            [] for _ in range(12)]
+        Alg = [lg_run, lg_coreset_once_run, unisample_run, near_convex_run, lg_coreset_run]
+        Alg_name = ['Original', 'OneShot', 'UniSamp', 'ImpSamp', 'SeqCore-R']
+        Init = (np.random.rand(dim + 1, 10) - 0.5) * 10
+        iter_, beta_res_, timing_ = [], [], []
+        for count_n, n in enumerate(n_range):
+            parameters_set(n=n, lam=lamda)
+            print(opt_path + '  coersetR: {}'.format(n))
+            Itering = []
+            loss, loss_train, predict, beta_diff, tttime = [[] for _ in range(5)]
+            for i in range(10):
+                iter, beta_res, timing = [], [], []
+                if count_n != 0:
+                    iter.append(iter_[i])
+                    beta_res.append(beta_res_[i])
+                    timing.append(timing_[i])
+                print('times:', i)
+                for alg_num, alg in enumerate(Alg):
+                    init = copy.deepcopy(Init[:, i][:, np.newaxis])
+                    if alg_num == 0 and count_n != 0:
+                        continue
+                    print(Alg_name[alg_num])
+                    if alg == lg_coreset_run:
+                        parameters = [X, y, lamda, epoch_max, init]
+                        R_ball = [0.5, 1, 5, 10]
+                        for rball in R_ball:
+                            time_now = time.time()
+                            print('R_ball={}'.format(rball))
+                            beta, itering = alg(parameters, R_ball=rball)
+                            beta_res.append(beta)
+                            iter.append(itering)
+                            timing.append(time.time() - time_now)
+                    else:
+                        parameters = [X, y, lamda, epoch_max, init, alg]
+                        time_now = time.time()
+                        beta, itering = run(parameters)
+                        beta_res.append(beta)
+                        iter.append(itering)
+                        timing.append(time.time() - time_now)
+                        if alg_num == 0 and count_n == 0:
+                            iter_.append(iter[0])
+                            beta_res_.append(beta_res[0])
+                            timing_.append(timing[0])
+                Itering.append(iter)
+                beta_diff_, loss_, loss_train_, predict_, scale_ = evaluate(X, y, X_test, y_test, beta_res, lamda)
+                beta_diff.append(beta_diff_)
+                loss.append(loss_)
+                loss_train.append(loss_train_)
+                predict.append(predict_)
+                tttime.append(timing)
+                if count_n == 0:
+                    Scale.append(scale_)
+            Iter.append(np.mean(Itering, 0).tolist())
+            Predict.append(np.mean(predict, 0).tolist())
+            Predict_Var.append(np.std(predict, 0).tolist())
             Loss.append(np.mean(loss, 0).tolist())
             Loss_var.append(np.std(loss, 0).tolist())
             Loss_train_avg.append(np.mean(loss_train, 0).tolist())
             Loss_train_var.append(np.std(loss_train, 0).tolist())
             Time.append(np.mean(tttime, 0).tolist())
+            Time_var.append(np.std(tttime, 0).tolist())
             Beta_diff.append(np.mean(beta_diff, 0).tolist())
-            Beta.append(beta_res)
+            Beta_var.append(np.std(beta_diff, 0).tolist())
             print('loss: ', Loss)
             print('time: ', Time)
             print('beta_diff: ', Beta_diff)
-            print('Acc',Predict)
-        path = 'result/test/syn'
-        if not os.path.exists(path):
-            os.makedirs(path)
-        scio.savemat(path + 'coreset_Loss_lr001_cvg1e-6_{}.mat'.format(n_range[0]),
+            print('Acc', Predict)
+        scio.savemat('coreset_syn_logistic{}_ep{}_iter_{}_Samplemin_{}_N_{}_d_{}.mat'.format(learning_rate,epsilon,epoch_max, n_range[0],Num,dimension),
                      {'Time': np.array(Time), 'Loss_avg': np.array(Loss), 'Loss_var': np.array(Loss_var),
-                      'Iter': np.array(Iter), 'Beta_diff': np.array(Beta_diff), 'Beta': np.array(Beta),
-                      'Accuracy': np.array(Predict),'Loss_train_avg':Loss_train_avg,'Loss_train_var':Loss_train_var})
+                      'Iter': np.array(Iter), 'Beta_diff': np.array(Beta_diff),
+                      'Accuracy': np.array(Predict),'Loss_train_avg':Loss_train_avg,'Loss_train_var':Loss_train_var,
+                     'Time_var':np.array(Time_var),'Beta_var':np.array(Beta_var),'Predict_var':np.array(Predict_Var)})
 
 
-
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
-    # main()
